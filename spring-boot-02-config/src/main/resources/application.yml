@@ -1,0 +1,31 @@
+server:
+  port: 8081
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 8082
+spring:
+  profiles: dev
+---
+server:
+  port: 8083
+spring:
+  profiles: prod
+#切记 key: value在value之前有一个空格!!!!
+#person:
+#    last-name: 王小星
+#    age: 18
+#    boss: false
+#    birth: 1997/09/12
+#    maps: {k1: 11,k2: 12}
+#    lists:
+#      - 李四
+#      - 王五
+#    dog:
+#      name: 小狗
+#      age: 12
+
+
+
